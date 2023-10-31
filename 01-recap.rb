@@ -5,6 +5,7 @@ def initials(first_name, last_name)
   # Extrair a primeira inicial de first_name
   first_letter = first_name.split("").first
   last_letter = last_name.split("").first
+  binding.pry
   return "#{first_letter}#{last_letter}"
 end
 
